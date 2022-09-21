@@ -45,23 +45,30 @@ header, .navbar{
     border: 1px solid grey;
     border-radius: 10px;
     width: 80px;
+    transition: 0.7s;
 
 }
+.btn-custom:hover{
+    background-color: rgba(255, 68, 0, 0.874);
+    
+}
 .nav-item .link-edit{
-    color: #171717;
+    color: #454545;
+    transition: 0.7s;
+}
+.nav-item a:hover{
+    color: rgb(98, 255, 0) ;
 }
 /* -----------LOGO----------------- */
-/* #logo{
+#logo{
     width: 75px;
-} */
+}
 /* .navbar{
     padding: 0;
     color: #fff;
 } */
 
-/* .navbar a:hover{
-    color: #fff;
-} */
+
 
 /* .navbar-exppand-lg .navbar-nav .nav-link{
     padding: 1rem .8rem;
