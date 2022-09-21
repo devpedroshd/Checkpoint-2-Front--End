@@ -11,9 +11,11 @@ body{
     font-family:'Robodo', sans-serif ;
 
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .row{
-    margin: 0;
+    margin: 10px;
 }
 .container{
     padding: 70px 0;
@@ -56,4 +58,91 @@ header, .navbar{
     display: flex;
     justify-content: flex-end;
     
+}
+.main-content{
+    
+}
+
+.main-content .welcome{
+    background-color: #202020;
+    min-height: calc(70px + 88vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    background-image: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.main-content .welcome h1{
+    color: #fea83e;
+    font-size: 60px;
+}
+.explorer{
+    background-color: #ef8514cb;
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+
+}
+.main-content{
+    background-color: #cbcbc555;
+   
+}
+.main-content .section-title{
+    color: #202020;
+    font-size: 42px;
+    text-align: center;
+
+
+}
+.main-content .recipes{
+
+    padding-top: 40px;
+    text-align: center;
+}
+
+.card-perso img{
+   
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+
+}
+.card-perso{
+    
+    margin-bottom: 20px;
+
+    border-radius: 30px !important;
+    box-shadow: -1em 0.4em 3em 0em rgba(54, 53, 53, 0.475);
+} 
+.card-body-perso .btn-perso{
+    background-color:#ffa70fb3 ;
+    width:150px;
+    height: 50px;
+    
+    font-size: 23px;
+    transition: 0.8s;
+}
+.card-body-perso .btn-perso:hover{
+    background-color: #ffa70f !important;
+}
+
+.footer{
+    
+    width: 100%;
+    height: 150px;
+
+ 
+
+    background: #171717;
 }
