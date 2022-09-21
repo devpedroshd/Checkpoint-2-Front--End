@@ -33,32 +33,47 @@ header, .navbar{
     background-color: #f59c28c3;
 
 }
-#nav-container{
-    padding-top: 0;
-    padding-bottom: 0;
+.navbar-nav-custom {
+    gap: 20px;
+    width: 100%;
+    justify-content: end;
+    padding-right: 12px;
+
+}
+.btn-custom{
+    background-color: rgba(255, 68, 0, 0.29);
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 80px;
+
+}
+.nav-item .link-edit{
+    color: #171717;
 }
 /* -----------LOGO----------------- */
-#logo{
+/* #logo{
     width: 75px;
-}
-.navbar{
+} */
+/* .navbar{
     padding: 0;
     color: #fff;
-}
+} */
 
-.navbar a:hover{
+/* .navbar a:hover{
     color: #fff;
-}
+} */
 
-.navbar-exppand-lg .navbar-nav .nav-link{
+/* .navbar-exppand-lg .navbar-nav .nav-link{
     padding: 1rem .8rem;
 
-}
-.navbar-nav .me-auto .mb-2 .space {
+} */
+/* .navbar-nav .me-auto .mb-2 .space {
     display: flex;
     justify-content: flex-end;
     
-}
+} */
+
+/* ---------------MAIN-------------- */
 .main-content{
     
 }
